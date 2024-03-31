@@ -11,7 +11,7 @@
 int main(void)
 {
 	// If you are using Xcode, use config_mac.csv for the following line
-	string sConfigFile = "config.csv";
+	string sConfigFile = "config_mac.csv";
 	map<string, string> configMap = ProcessConfigData(sConfigFile);
 	string url_common = configMap["url_common"];
 	string start_date = configMap["start_date"];
