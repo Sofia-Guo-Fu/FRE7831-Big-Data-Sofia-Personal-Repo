@@ -64,7 +64,7 @@ public:
 		for (int i = 0; i < no_of_threads; i++)
 		{
 			for (map<string, int>::iterator itr = ResultTables[i].begin();
-				itr != ResultTables[i].end(); itr++)
+				itr != ResultTables[i].end(); itr++) 
 				if (ResultTable.find(itr->first) == ResultTable.end())
 					ResultTable[itr->first] = itr->second;
 				else
